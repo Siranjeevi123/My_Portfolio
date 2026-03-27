@@ -24,7 +24,7 @@ export const personalInfo = {
   },
   available: import.meta.env.VITE_AVAILABLE !== "false",
   resumeUrl: import.meta.env.VITE_RESUME_URL || "#",
-  profilePhoto: import.meta.env.VITE_PROFILE_PHOTO || "",
+  profilePhoto: import.meta.env.VITE_PROFILE_PHOTO || "https://res.cloudinary.com/dn3mdi6bx/image/upload/f_auto,q_auto/WhatsApp_Image_2026-03-27_at_11.34.32_hgwzie",
 };
 
 export const skills = {
